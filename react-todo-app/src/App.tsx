@@ -33,7 +33,7 @@ export default function App() {
       <form onSubmit={handleSubmit}>
         <Input name="Name" value={name} onChange={changeName} />
         <Input name="Age" value={age} onChange={changeAge} />
-        <RadioInput name="Input" onChange={changeGender} />
+        <RadioInput name="Gender" onChange={changeGender} />
         <Select name="Favourite Color" value={color} onChange={changeColor} />
         <button type="submit" className="btn-primary mb-16">
           Submit
